@@ -1,0 +1,102 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.padding {
+  padding-top: 80px;
+}
+
+.text-contain {
+  padding: 65px;
+  color: #828282;
+  text-align: center;
+}
+
+.headung {
+  font-size: 20px;
+}
+
+.text-contain h2 {
+  color: #000;
+  font-size: 62px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.text-contain p {
+  font-size: 17px;
+  line-height: 32px;
+}
+
+.vew-btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 18px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #454BED;
+  border-radius: 25px;
+}
+
+.vew-btn:hover {
+    color: #fff;
+}
+
+.gelary {
+  position: relative;
+}
+
+.gelary img {
+  position: absolute;
+  box-shadow: 0 0 10px #D5D5D7;
+}
+
+.gelary img:nth-child(1) {
+  top: 0;
+  height: 650px;
+  width: 50%;
+  right: 370px;
+}
+
+.gelary img:nth-child(2) {
+  right: 25px;
+  height: 550px;
+  top: 140px;
+  width: 50%;
+}
+
+.gelary img:nth-child(3) {
+  top: 386px;
+  height: 320px;
+  width: 60%;
+}
